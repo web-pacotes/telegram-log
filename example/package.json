@@ -1,0 +1,14 @@
+{
+	"name": "telegram-log-example",
+	"version": "0.0.0",
+	"description": "Example project to test telegram-log",
+	"main": "dist/index.js",
+	"module": "dist/index.cjs",
+	"types": "dist/index.d.ts",
+	"sideEffects": false,
+	"author": "web-pacotes",
+	"license": "none",
+	"dependencies": {
+		"telegram-log": "file:../"
+	}
+}
