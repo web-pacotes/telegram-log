@@ -67,12 +67,3 @@ Found any bug (including typos) in the package? Do you have any suggestion
 or feature to include for future releases? Please create an issue via
 GitHub in order to track each contribution. Also, pull requests are very
 welcome!
-
-### Contact
-
-This template was prepared by:
-
-- João Freitas, @freitzzz
-- Rute Santos, @rutesantos4
-
-Contact us for freelancing work!
