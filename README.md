@@ -31,10 +31,6 @@ main();
 
 - Sends a message to a Telegram group chat.
 
-## Missing features
-
-todo: enumerate features package does not provide
-
 ---
 
 ## Scripts
