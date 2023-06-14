@@ -8,19 +8,28 @@ Logs messages to a Telegram channel
 
 ## How to use
 
-todo: describe usage
+To use this package, you will need a Telegram BOT and a Telegram group chat.
 
 ```typescript
-todo: include usage code here
+import { default as handler, TelegramOptions } from 'telegram-log';
+
+async function main() {
+	const telegramOptions = <TelegramOptions>{
+		botToken: 'your-telegram-bot-token',
+		chatId: 'you-telegram-chat-id'
+	};
+
+	const result = await handler('Hello from telegram-log!!!', telegramOptions);
+
+	console.log(result);
+}
+
+main();
 ```
 
 ## Features
 
-todo: enumerate features package currently provides
-
-## Missing features
-
-todo: enumerate features package does not provide
+- Sends a message to a Telegram group chat.
 
 ---
 
@@ -58,12 +67,3 @@ Found any bug (including typos) in the package? Do you have any suggestion
 or feature to include for future releases? Please create an issue via
 GitHub in order to track each contribution. Also, pull requests are very
 welcome!
-
-### Contact
-
-This template was prepared by:
-
-- João Freitas, @freitzzz
-- Rute Santos, @rutesantos4
-
-Contact us for freelancing work!
