@@ -1,6 +1,6 @@
 {
 	"name": "@web-pacotes/telegram-log",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Logs messages to a Telegram channel",
 	"main": "dist/index.js",
 	"module": "dist/index.cjs",
