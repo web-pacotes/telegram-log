@@ -11,7 +11,7 @@ Logs messages to a Telegram channel
 To use this package, you will need a Telegram BOT and a Telegram group chat.
 
 ```typescript
-import { default as handler, TelegramOptions } from 'telegram-log';
+import { default as handler, TelegramOptions } from '@web-pacotes/telegram-log';
 
 async function main() {
 	const telegramOptions = <TelegramOptions>{
